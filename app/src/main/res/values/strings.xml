@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Practica6_PopcornFactory</string>
+    <string name="intro">Welcome to Popcorn Factory, home of the best series and movies.
+        Just lay down, make some popcorn and enjoy!</string>
+    <string name="intro_button">GET ME IN!</string>
+    <string name="series">SERIES</string>
+    <string name="movies">MOVIES</string>
+    <string name="dr_house">Dr. House</string>
+    <string name="smallville">Smallville</string>
+    <string name="dr_who">Dr. Who</string>
+    <string name="bones">Bones</string>
+    <string name="suits">Suits</string>
+    <string name="friends">Friends</string>
+    <string name="mil">1917</string>
+    <string name="big_hero">Big hero 6</string>
+    <string name="leap_year">Leap Year</string>
+    <string name="men_in_black">Men in Black</string>
+    <string name="toy_story">Toy Story</string>
+    <string name="inception">Inception</string>
+    <string name="lorep_ipsum">Lorem ipsum dolor sit amet consectetur adipiscing elit, euismod mi
+        placerat nostra est fusce, pellentesque sagittis leo vestibulum vitae varius. Et ultricies
+        at ut rhoncus dictumst nibh per lectus fusce odio, lacus in scelerisque accumsan phasellus
+        commodo magna velit quam. Erat mollis accumsan in arcu dignissim dictumst aliquam lectus
+        nibh justo ornare mus netus fames, cras sed enim porttitor ullamcorper consequat pellentes
+        que nam quam sollicitudin dis vel.
+        Varius velit pellentesque sem integer augue volutpat dis nibh ad vel curae torquent
+        himenaeos, conubia mi in habitasse sollicitudin lacus phasellus posuere fermentum nullam
+        odio. Nisl ultricies nullam semper pharetra nisi posuere nascetur, euismod sociosqu netus
+        fringilla erat accumsan nec aenean, tempus sollicitudin sodales molestie rutrum sapien.
+        Metus convallis dictumst risus erat sodales nostra litora malesuada accumsan velit dis
+        tempus, molestie habitasse iaculis sociosqu dui orci a class etiam lobortis quam massa,
+        venenatis facilisis tristique nascetur blandit augue donec magnis ligula ultrices hendrerit.
+    </string>
+
+</resources>
