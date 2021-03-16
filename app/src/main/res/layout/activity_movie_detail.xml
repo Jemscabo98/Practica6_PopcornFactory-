@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Descripcion"
+    tools:context=".MovieDetail"
     android:orientation="vertical"
     android:background="@color/dark_gray">
 
@@ -28,39 +28,56 @@
             android:id="@+id/txtTituloDescripcion"
             android:text="@string/big_hero"
             android:layout_marginLeft="5dp"
-            android:layout_width="0dp"
-            android:layout_weight="1.5"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="25sp"
+            android:textSize="@dimen/title"
             android:textColor="@color/yellow"
             android:fontFamily="sans-serif-light"
             android:textStyle="bold"
             android:layout_marginTop="10dp"/>
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_weight="3.5"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_marginTop="28dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/round_button"/>
-
     </LinearLayout>
 
     <TextView
         android:id="@+id/txtDescripcion"
         android:layout_width="match_parent"
-        android:layout_weight="3"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
-        android:textSize="14sp"
+        android:textSize="@dimen/regText"
         android:textStyle="normal"
         android:fontFamily="sans-serif-light"
         android:textColor="@color/dusty_white"
         android:text="@string/lorep_ipsum"/>
 
+    <Button
+        android:id="@+id/butTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/paddingButton"
+        android:paddingHorizontal="@dimen/paddingButton"
+        android:background="@drawable/round_button"
+        android:text="@string/but_buyTicket"
+        android:textSize="@dimen/buttonText"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seatsLeft"
+        android:textColor="@color/low_gray"
+        android:text="Asientos disponibles: 12"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:textAlignment="center"
+        />
 </LinearLayout>
