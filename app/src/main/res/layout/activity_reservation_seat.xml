@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservationSeat"
+    android:orientation="vertical"
+    android:background="@color/dark_gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have a good day!!\n Enjoy the Movie"
+        android:layout_gravity="center"
+        android:textColor="@color/dusty_white"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/men_in_black"
+        android:textColor="@color/yellow"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="55dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/seatNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="195sp"
+        android:layout_gravity="center"
+        android:text="21"
+        android:textColor="@color/low_gray"
+        android:paddingLeft="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="70dp"
+        android:textSize="@dimen/buttonText"
+        android:textStyle="bold"
+        android:text="Menu"
+        />
+</LinearLayout>

@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
+import java.util.*
 
 class MovieDetail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,14 +20,18 @@ class MovieDetail : AppCompatActivity() {
         var seatLeft: TextView = findViewById(R.id.seatsLeft)
         var buyTickets: Button = findViewById(R.id.butTickets)
 
+        //Asigna un npumero de asientos random
+        val random = Random()
+        var seats = random.nextInt(21)
+        var ns = seats
+
         val bundle = intent.extras
-        var ns = 0
         var id = -1
         var titule = ""
 
         if (bundle != null)
         {
-            ns = bundle.getInt("numberSeats")
+            //ns = bundle.getInt("numberSeats")
             titule = bundle.getString("titulo")!!
 
 
@@ -44,7 +50,7 @@ class MovieDetail : AppCompatActivity() {
                 val intent: Intent = Intent(this, SeatSelection::class.java)
 
                 intent.putExtra("id", id)
-                intent.putExtra("titulo", titule)
+                intent.putExtra("movie", titule)
                 intent.putExtra("seats", ns)
 
                 this.startActivity(intent)

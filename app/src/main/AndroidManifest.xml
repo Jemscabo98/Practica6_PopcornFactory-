@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica6_PopcornFactory">
-        <activity android:name=".SeatSelection"></activity>
+        <activity android:name=".ReservationSeat"></activity>
+        <activity android:name=".SeatSelection" />
         <activity android:name=".MovieDetail" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".MainActivity">
